@@ -1,0 +1,1 @@
+#docker run -d --name farm -v $PWD/.env:/home/appuser/.env -v $PWD/ai_settings.yaml:/home/appuser/ai_settings.yaml -v $PWD/auto_gpt_workspace/:/home/appuser/auto_gpt_workspace/ index.docker.io/academiaonline/autogpt:stable -c -y -l 999
